@@ -11,10 +11,10 @@ body {
      /* border: 1px solid #4AA230;*/
       display: flex;
       margin: auto;
-      background-color: #266FF6;
+      background-color: #266FF6;*/
   }
 
 .frog {
-  display: none;*/
+  display: none;
   height: 10%;
 }
