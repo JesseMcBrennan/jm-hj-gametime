@@ -13,3 +13,9 @@ body {
       margin: auto;
       background-color: #266FF6;
   }
+
+
+.frog {
+  display: none;
+  height: 10%;
+}
