@@ -1,13 +1,13 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Enemies = require('../lib/enemies.js');
+const Log = require('../lib/Truck.js');
 
-describe('Enemies', function() {
+describe('Log', function() {
   it('should have a width of x', function() {
-    var enemies = new Enemies();
+    var log = new Log();
     // var expectedHeight = 30;
     // var expected
 
-    assert.equal(enemies.width, x);
+    assert.equal(log.width, x);
   });
 });

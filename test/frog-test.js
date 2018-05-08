@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Frog = require('../lib/frogger.js');
+const Frog = require('../lib/frog.js');
 
 describe('Frog', function() {
   it('should have a width and a height of 30', function() {
@@ -8,8 +8,8 @@ describe('Frog', function() {
     // var expectedHeight = 30;
     // var expected
 
-    assert.equal(frog.height, 30);
-    assert.equal(frog.width, 30);
+    assert.equal(frog.height, 50);
+    assert.equal(frog.width, 50);
   });
 });
 
