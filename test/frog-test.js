@@ -1,10 +1,10 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Frog = require('../lib/Frog.js');
+const Frog = require('../lib/frog.js');
 
 describe('Frog', function() {
   it('should have a width and a height of 30', function() {
-    var frog = new Frog(600, 700, 50, 50);
+    var frog = new Frog();
     // var expectedHeight = 30;
     // var expected
 
@@ -15,7 +15,7 @@ describe('Frog', function() {
 
 describe('Frog', function() {
   it('should have a color of green', function() {
-    var frog = new Frog(600, 700, 50, 50);
+    var frog = new Frog();
 
     assert.equal(frog.color, 'green');
   });
@@ -23,7 +23,7 @@ describe('Frog', function() {
 
 describe('Frog', function() {
   it('should start out at the bottom in the middle');
-    var frog = new Frog(600, 700, 50, 50);
+    var frog = new Frog();
 
     assert.equal(frog.x, 600);
     assert.equal(frog.y, 700);
@@ -36,5 +36,4 @@ describe('Frog', function() {
 //A frog should be able to move up, down, left, right
 
 //should not be able to move beyond height or width of canvas
-
 
