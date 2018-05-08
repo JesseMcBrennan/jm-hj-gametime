@@ -7,11 +7,18 @@ body {
   width: 100%;
 }
 
+p {
+  color: white;
+  font-size: 17px;
+  padding-left: 20.5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
 #canvas {
-     /* border: 1px solid #4AA230;*/
+      border: 1px solid #4AA230;
       display: flex;
       margin: auto;
-      background-color: #266FF6;*/
+      background-color: #266FF6;
   }
 
 .frog {
