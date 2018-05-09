@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Enemies = require('../lib/enemies.js');
+const Enemies = require('../lib/Enemies.js');
 
 describe('Enemies', function() {
   it('should have a width of x', function() {

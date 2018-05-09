@@ -11,10 +11,9 @@ const Car = require('../lib/Car.js');
 
 describe('Car', function() {
   it('should have a width of x', function() {
-    var car = new Car();
-    // var expectedHeight = 30;
-    // var expected
+    var car = new Car(10, 10, 50, 50);
 
-    assert.equal(car.width, x);
+
+    assert.equal(car.width, 50);
   });
 });

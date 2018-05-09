@@ -1,6 +1,6 @@
 const chai = require('chai');
 const assert = chai.assert;
-const Frog = require('../lib/frog.js');
+const Frog = require('../lib/Frog.js');
 
 describe('Frog', function() {
   it('should have a width and a height of 30', function() {
@@ -23,7 +23,7 @@ describe('Frog', function() {
 
 describe('Frog', function() {
   it('should start out at the bottom in the middle');
-    var frog = new Frog();
+    var frog = new Frog(600, 700, 50, 50);
 
     assert.equal(frog.x, 600);
     assert.equal(frog.y, 700);
